@@ -8,7 +8,7 @@ import { PagamentoProvider } from 'common/contexts/Pagamento';
 
 export default function Routes() {
   return (
-    <Router>
+    <Router> 
       <Switch>
         <PagamentoProvider>
           <UsuarioProvider>
