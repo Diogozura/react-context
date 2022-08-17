@@ -16,8 +16,6 @@ import {
 function Login() {
   const history = useHistory();
   const { nome, setNome, saldo, setSaldo } = useContext(UsuarioContext);
-  
-console.log(nome, saldo)
   return (
     <Container>
       <Titulo>
