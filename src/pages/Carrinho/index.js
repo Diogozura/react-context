@@ -24,6 +24,7 @@ function Carrinho() {
   const [openSnackbar, setOpenSnackbar] = useState(false);
   const history = useHistory();
   const total = useMemo(() => saldo - valorTotal, [saldo, valorTotal]);
+  
   return (
     <Container>
       <Voltar onClick={history.goBack} />
